@@ -34,10 +34,10 @@
             // 
             // ExpressionLine
             // 
-            this.ExpressionLine.BackColor = System.Drawing.Color.White;
+            this.ExpressionLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.ExpressionLine.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ExpressionLine.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ExpressionLine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.ExpressionLine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
             this.ExpressionLine.Location = new System.Drawing.Point(9, 17);
             this.ExpressionLine.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.ExpressionLine.Name = "ExpressionLine";
@@ -51,6 +51,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(40)))), ((int)(((byte)(61)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.button1.Location = new System.Drawing.Point(9, 48);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
