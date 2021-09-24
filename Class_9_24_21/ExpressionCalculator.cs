@@ -84,7 +84,7 @@ namespace Class_9_24_21
                             numsStack.Push(bufNum1 / numPeek);
                         else
                             numsStack.Push(bufNum1 * numPeek);
-                        char symbPop = operationsStack.Pop();
+                        operationsStack.Pop();
 
                         numsStack.Push(bufNum);
                         operationsStack.Push('+');
