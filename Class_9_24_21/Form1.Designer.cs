@@ -57,10 +57,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.button1.Location = new System.Drawing.Point(10, 49);
+            this.button1.Location = new System.Drawing.Point(10, 46);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(164, 56);
+            this.button1.Size = new System.Drawing.Size(164, 59);
             this.button1.TabIndex = 1;
             this.button1.Text = "Calculate";
             this.button1.UseVisualStyleBackColor = false;

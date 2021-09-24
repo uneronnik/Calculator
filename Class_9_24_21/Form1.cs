@@ -55,6 +55,11 @@ namespace Class_9_24_21
         {
             if (e.KeyCode == Keys.Enter)
                 button1_Click(sender, e);
+            else
+            {
+                if(ExpressionLine.Text == "Error")
+                    ExpressionLine.Text = "";
+            }
         }
     }
 }
