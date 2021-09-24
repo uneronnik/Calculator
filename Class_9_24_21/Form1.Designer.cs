@@ -45,8 +45,11 @@
             this.ExpressionLine.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.ExpressionLine.Size = new System.Drawing.Size(164, 25);
             this.ExpressionLine.TabIndex = 0;
+            this.ExpressionLine.Text = "Enter Expression";
             this.ExpressionLine.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.ExpressionLine.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.ExpressionLine.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ExpressionLine_KeyDown);
+            this.ExpressionLine.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ExpressionLine_MouseDown);
             // 
             // button1
             // 
@@ -82,6 +85,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

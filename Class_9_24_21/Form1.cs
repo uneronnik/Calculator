@@ -19,7 +19,7 @@ namespace Class_9_24_21
         
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -38,6 +38,23 @@ namespace Class_9_24_21
             {
                 ExpressionLine.Text = "Error";
             }
+        }
+
+        private void ExpressionLine_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (ExpressionLine.Text == "Error" || ExpressionLine.Text == "Enter Expression")
+                ExpressionLine.Text = "";
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            
+        }
+
+        private void ExpressionLine_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                button1_Click(sender, e);
         }
     }
 }

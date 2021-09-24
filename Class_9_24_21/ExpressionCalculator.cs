@@ -94,6 +94,8 @@ namespace Class_9_24_21
                 
 
             }
+            if (operationsStack.Count > 0)
+                throw new Exception();
             return numsStack.Pop();
         }
     }
