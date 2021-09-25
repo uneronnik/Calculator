@@ -79,7 +79,7 @@ namespace Class_9_24_21
                         numsStack.Push(bufNum + bufNum1);
                     else
                     {
-                        double numPeek = numsStack.Peek();
+                        double numPeek = numsStack.Pop();
                         if (bufPeek == '/')
                             numsStack.Push(bufNum1 / numPeek);
                         else
