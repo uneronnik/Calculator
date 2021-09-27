@@ -39,7 +39,7 @@
             this.ExpressionLine.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ExpressionLine.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ExpressionLine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ExpressionLine.Location = new System.Drawing.Point(10, 15);
+            this.ExpressionLine.Location = new System.Drawing.Point(11, 15);
             this.ExpressionLine.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.ExpressionLine.Name = "ExpressionLine";
             this.ExpressionLine.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -60,7 +60,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.button1.Location = new System.Drawing.Point(10, 46);
+            this.button1.Location = new System.Drawing.Point(11, 49);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(164, 59);
@@ -75,7 +75,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(32)))), ((int)(((byte)(33)))));
-            this.ClientSize = new System.Drawing.Size(183, 119);
+            this.ClientSize = new System.Drawing.Size(184, 121);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ExpressionLine);
             this.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
